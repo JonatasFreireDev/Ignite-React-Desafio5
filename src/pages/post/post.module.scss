@@ -1,1 +1,50 @@
-// TODO
+.post {
+  img {
+    margin: auto;
+    width: 100%;
+  }
+
+  section {
+    max-width: 1024px;
+    padding: 0 1.5rem;
+    margin: 5rem auto;
+
+    & > header {
+      margin: 2rem 0;
+
+      svg {
+        margin-right: 1rem;
+      }
+
+      svg + span {
+        margin-right: 2rem;
+      }
+    }
+
+    div {
+      margin: 2rem 0;
+
+      h3 {
+        font-size: 2.5rem !important;
+      }
+
+      div {
+        display: flex;
+        flex-direction: column;
+        p {
+          margin: 1rem 0;
+        }
+
+        ul,
+        ol {
+          margin: 0 5rem;
+        }
+
+        strong {
+          font-size: 1.8rem;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}

@@ -1,1 +1,47 @@
-// TODO
+.container {
+  max-width: 1024px;
+  padding: 0 1.5rem;
+  margin: auto;
+
+  button {
+    border: none;
+    background: transparent;
+    color: var(--highlight);
+    margin-top: 3rem;
+    font-weight: 600;
+    transition: all 0.3s;
+
+    &:hover {
+      filter: brightness(0.8);
+    }
+  }
+}
+
+.post {
+  margin-top: 3rem;
+
+  h1 {
+    color: var(--heading);
+    transition: all 0.3s;
+
+    &:hover {
+      filter: brightness(0.8);
+    }
+  }
+
+  & > p {
+    margin: 0.8rem 0;
+  }
+
+  div {
+    display: flex;
+
+    svg {
+      margin-right: 1rem;
+    }
+
+    time {
+      margin-right: 3rem;
+    }
+  }
+}
